@@ -27,37 +27,57 @@ Remove duplicates
 
 Normalize data if necessary
 
+
 3. Feature Selection
 
 
 Choose important features:
 
+
 Area
+
 Bedrooms
+
 Bathrooms
+
 Age
+
 Location
+
 
 4. Model Training
 
 
 Train a machine learning model such as:
 
+
 Linear Regression
+
 Decision Tree
+
 Random Forest
+
 XGBoost
+
 5. Model Evaluation
+
 
 Measure performance using:
 
+
 MAE
+
 MSE
+
 RMSE
+
 R² Score
+
 6. Prediction
 
+
 Predict prices for new houses.
+
 
 # Advantages
 1. Fast Property Valuation
