@@ -40,11 +40,3 @@ This project involves building a machine learning model to predict house prices 
 - The predictions are saved to a CSV file (`submission.csv`) for submission.
 
 
-## Additional Notes
-- The `submission.csv` file contains the predicted house prices for the test dataset.
-- The trained model (`gbr.pkl`) is stored as a pickle file for future use or deployment.
-
-For any further inquiries or improvements, feel free to reach out.
-
-### Connect me:
-[Linkedin](https://www.linkedin.com/in/nirdesh-devadiya-55b408209)
