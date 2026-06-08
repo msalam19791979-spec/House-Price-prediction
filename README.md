@@ -20,10 +20,15 @@ The model learns patterns from historical housing data and estimates the price o
 Collect historical house sales data.
 
 2. Data Preprocessing
+
 Handle missing values
+
 Remove duplicates
+
 Normalize data if necessary
+
 3. Feature Selection
+
 
 Choose important features:
 
@@ -32,7 +37,9 @@ Bedrooms
 Bathrooms
 Age
 Location
+
 4. Model Training
+
 
 Train a machine learning model such as:
 
