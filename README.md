@@ -1,153 +1,50 @@
-# House-Price-Prediction
-
-# Definition
-
-House Price Prediction is an Artificial Intelligence (AI) and Machine Learning project that predicts the selling price of a house based on various features such as:
-
-Area (square feet)
-Number of bedrooms
-Number of bathrooms
-House age
-Parking spaces
-Location
-Nearby facilities
-
-The model learns patterns from historical housing data and estimates the price of a new house.
-
-# Project Workflow
-1. Data Collection
-
-Collect historical house sales data.
-
-2. Data Preprocessing
-
-Handle missing values
-
-Remove duplicates
-
-Normalize data if necessary
-
-
-3. Feature Selection
-
-
-Choose important features:
-
-
-Area
-
-Bedrooms
-
-Bathrooms
-
-Age
-
-Location
-
-
-4. Model Training
-
-
-Train a machine learning model such as:
-
-
-Linear Regression
-
-Decision Tree
-
-Random Forest
-
-XGBoost
-
-5. Model Evaluation
-
-
-Measure performance using:
-
-
-MAE
-
-MSE
-
-RMSE
-
-R² Score
-
-6. Prediction
-
-
-Predict prices for new houses.
-
-
-# Advantages
-1. Fast Property Valuation
-
-Provides quick estimates of house prices.
-
-2. Data-Driven Decisions
-
-Reduces human bias in valuation.
-
-3. Saves Time
-
-Automates the pricing process.
-
-4. Useful for Investors
-
-Helps identify profitable properties.
-
-5. Scalable
-
-Can analyze thousands of properties efficiently.
-
-6. Improves Accuracy
-
-Machine learning can capture market trends better than manual estimation.
-
-
-# Disadvantages
-1. Dependent on Data Quality
-
-Poor data leads to poor predictions.
-
-2. Sensitive to Market Changes
-
-Housing markets can change rapidly.
-
-3. Requires Historical Data
-
-Cannot perform well without sufficient training data.
-
-4. Feature Selection Challenges
-
-Missing important factors reduces accuracy.
-
-5. Model Bias
-
-Biased data can produce biased predictions.
-
-
-# Limitations
-1. Location Complexity
-
-Location significantly affects price and is difficult to model perfectly.
-
-2. Economic Factors
-
-Inflation, interest rates, and government policies may not be included.
-
-3. Unexpected Events
-
-Natural disasters or market crashes can make predictions inaccurate.
-
-4. Non-Linear Relationships
-
-Simple Linear Regression may fail to capture complex patterns.
-
-5. Small Dataset Problem
-
-Limited training data reduces reliability.
-
-6. Feature Availability
-
-Some important features may not be available in datasets.
+# House Price Prediction AI/ML Project
+
+This project involves building a machine learning model to predict house prices based on various features. The dataset used for this project is from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a model that accurately predicts house prices given a set of input features.
+
+## Kaggle Competition
+- Dataset: [House Prices - Advanced Regression Techniques](https://www.kaggle.com/c/house-prices-advanced-regression-techniques)
+- Model Score: 87.16% (R-squared score)
+
+## File Structure
+- `house_price_prediction.ipynb`: Jupyter Notebook containing the code for data preprocessing, exploratory data analysis (EDA), feature engineering, model training, and prediction.
+- `submission.csv`: CSV file containing the predicted house prices for the test dataset.
+- `gbr.pkl`: Pickle file containing the trained GradientBoostingRegressor model.
+
+## Libraries Used
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+
+## Data Loading and Analysis
+- The training and test datasets are loaded from CSV files.
+- Exploratory data analysis is performed to understand the structure and characteristics of the data.
+- Data visualization techniques such as histograms, box plots, and heatmaps are used to analyze the distribution of features and identify missing values.
+
+## Data Preprocessing
+- Missing values are handled using appropriate techniques such as imputation or dropping columns.
+- Categorical variables are encoded using one-hot encoding.
+- Numerical features are standardized to ensure uniformity and improve model performance.
+
+## Model Selection and Training
+- Several regression models are considered, including Linear Regression, SVR, SGDRegressor, KNeighborsRegressor, DecisionTreeRegressor, RandomForestRegressor, GradientBoostingRegressor, XGBRegressor, and MLPRegressor.
+- Cross-validation is used to evaluate each model's performance based on the R-squared score.
+- The GradientBoostingRegressor model is selected based on its superior performance.
+
+## Model Evaluation and Prediction
+- The selected model is trained on the training dataset.
+- The trained model is used to make predictions on the test dataset.
+- The predictions are saved to a CSV file (`submission.csv`) for submission.
+
+
+## Additional Notes
+- The `submission.csv` file contains the predicted house prices for the test dataset.
+- The trained model (`gbr.pkl`) is stored as a pickle file for future use or deployment.
+
+For any further inquiries or improvements, feel free to reach out.
+
+### Connect me:
+[Linkedin](https://www.linkedin.com/in/nirdesh-devadiya-55b408209)
