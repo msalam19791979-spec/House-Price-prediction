@@ -1,6 +1,6 @@
-# House-Price-prediction
+# House-Price-Prediction
 
-Definition
+# Definition
 
 House Price Prediction is an Artificial Intelligence (AI) and Machine Learning project that predicts the selling price of a house based on various features such as:
 
@@ -14,7 +14,7 @@ Nearby facilities
 
 The model learns patterns from historical housing data and estimates the price of a new house.
 
-Project Workflow
+# Project Workflow
 1. Data Collection
 
 Collect historical house sales data.
@@ -52,7 +52,7 @@ R² Score
 
 Predict prices for new houses.
 
-Advantages
+# Advantages
 1. Fast Property Valuation
 
 Provides quick estimates of house prices.
@@ -77,7 +77,8 @@ Can analyze thousands of properties efficiently.
 
 Machine learning can capture market trends better than manual estimation.
 
-Disadvantages
+
+# Disadvantages
 1. Dependent on Data Quality
 
 Poor data leads to poor predictions.
@@ -98,7 +99,8 @@ Missing important factors reduces accuracy.
 
 Biased data can produce biased predictions.
 
-Limitations
+
+# Limitations
 1. Location Complexity
 
 Location significantly affects price and is difficult to model perfectly.
