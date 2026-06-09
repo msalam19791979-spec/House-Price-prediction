@@ -1,15 +1,15 @@
 # House Price Prediction Project
 
-# NAME :- *MISHKAT NOORI* 
-# COMPANY :- *CODTECH IT SOLUTIONS* 
-# Intern I'D :- *CITS3420* 
-# DOMAIN :- *Artificial Intelligence* 
-# DURATION :- *8 WEEKS FROM 06th JUNE TO 1st AUGUST 20268* 
-# MENTOR :- *NEELA SANTHOSH KUMAR*
+NAME :- *MISHKAT NOORI* 
+COMPANY :- *CODTECH IT SOLUTIONS* 
+Intern I'D :- *CITS3420* 
+DOMAIN :- *Artificial Intelligence* 
+DURATION :- *8 WEEKS FROM 06th JUNE TO 1st AUGUST 20268* 
+MENTOR :- *NEELA SANTHOSH KUMAR*
 
-This project involves building a machine learning model to predict house prices based on various features. The dataset used for this project is from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a model that accurately predicts house prices given a set of input features.
+*House Price Prediction ---* This project involves building a machine learning model to predict house prices based on various features. The dataset used for this project is from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a model that accurately predicts house prices given a set of input features.
 
-## 📌 Project Overview --- House Price Prediction 
+## 📌 Project Overview --- 
 
 House Price Prediction is an Artificial Intelligence and Machine Learning based project that aims to predict the market value of a house based on various property-related features. In the real estate industry, determining the correct price of a property is often challenging because many factors influence housing prices, such as location, area, number of bedrooms, bathrooms, parking facilities, and other amenities.
 
