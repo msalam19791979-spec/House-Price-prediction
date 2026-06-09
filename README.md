@@ -1,11 +1,17 @@
 # House Price Prediction Project
 
 NAME :- *MISHKAT NOORI* 
+
 COMPANY :- *CODTECH IT SOLUTIONS* 
+
 Intern I'D :- *CITS3420* 
+
 DOMAIN :- *Artificial Intelligence* 
-DURATION :- *8 WEEKS FROM 06th JUNE TO 1st AUGUST 20268* 
+
+DURATION :- *8 WEEKS FROM 06th JUNE TO 1st AUGUST 2026*
+
 MENTOR :- *NEELA SANTHOSH KUMAR*
+
 
 *House Price Prediction ---* This project involves building a machine learning model to predict house prices based on various features. The dataset used for this project is from the Kaggle competition "House Prices - Advanced Regression Techniques". The goal is to develop a model that accurately predicts house prices given a set of input features.
 
